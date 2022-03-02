@@ -17,4 +17,28 @@ have work experience, but I have a great desire to develop and learn something n
 Purposeful, responsive, polite, able to find contact with people, quicklearner, able to achieve goals, initiative, strive for professional  
 development.  
 
-***   
+*** 
+
+### Skills and Proficiency:  
+HTML5, CSS3, JS, Figma, Git, VS Code.  
+
+***  
+
+### Code example:  
+**Task**: Given a year, return the century it is in.  
+```
+function century(year) {
+return Math.ceil(year/100);
+}  
+```  
+
+*** 
+
+### Courses:  
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)  
+* JavaScript Manual on (https://learn.javascript.ru) (in progress)  
+
+***  
+
+### Languages:  
+* English - Pre-Intermediate/Intermediate
