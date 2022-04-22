@@ -91,3 +91,38 @@ body{
     color: #FFFFFF;
     text-decoration: none;
 }
+
+.footer{
+    margin-top: 35px;
+    height: 78px;
+    background: #212121;
+    width: 100%;
+}
+.footer-wrapper{
+    display: flex;
+    color:#FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.footer-github{
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+    text-decoration: none;
+    width: 100px;
+    justify-content: space-between;
+}
+.footer-github img{
+    width: 26px;
+    height: 26px;
+}
+.footer-rss img{
+    width: 121px;
+    height: 45px;
+}
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
