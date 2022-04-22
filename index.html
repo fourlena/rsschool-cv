@@ -4,9 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cv</title>
 </head>
 <body>
-    
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code </a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="profile">
+                <img class="profile-logo" src="assets/photo.jpg" alt="avatar">
+                <div class="profile-text">
+                    <h1 class="profile-title">Lena Pavlovich</h1>
+                    <h3 class="profile-subtitle">Junior Front-End Developer</h3>
+                    <hr>
+                </div>
+            </section>
+            <aside class="aside">
+                <section class="education" id="education">
+                    <h2>Education</h2>
+                    <p>Belarusian State University of Informatics and Radioelectronics</p>
+                </section>
+                <section class="contacts" id="contacts">
+                    <h2>Contacts</h2>
+                    <ul class="contacts-list">
+                        <li>
+                            Phone:
+                            <a class="contacts-link" href="tel:+375255080276 "> +375 (25) 5080276</a>  
+                        </li>
+                        <li> 
+                            Email: 
+                           <a class="contacts-link" href="mailto:elavlovick@gmail.com ">elavlovick@gmail.com</a> 
+                        </li>
+                        <li>Telegram: @LenaPa</li>
+                    </ul>
+                </section>
+                <section class="skills" id="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JS</li>
+                        <li>Figma</li>
+                        <li>Git</li>
+                    </ul>
+                </section>
+                <section class="project" id="project">
+                    <h2>Project</h2>
+                    <ul>
+                        <li>
+                            <a class="project-link" href="https://fourlena.github.io/wordpress/">Wordpress</a>
+                        </li>
+                        <li>
+                            <a class="project-link" href="https://fourlena.github.io/puls/">Puls</a>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+            <div class="wrapper">
+                <section class="about" id="about">
+                    <h2>About</h2>
+                    <p>
+                        Recently graduated from a technical university. My goal is to start a career as a Junior Frontend Developer. At the moment I don’t  have work experience, but I have a great desire to develop and learn something new. 
+                        Purposeful, responsive, polite, able to find contact with people, quicklearner, able to achieve goals, initiative, strive for professional development.
+                    </p>
+                </section>
+                <section class="code" id="code">
+                    <h2>Code</h2>
+                    <pre><code>function factorial(n) {
+    if(n &lt; 0) return null;
+    if (n &lt;= 1) return 1;
+    return n * factorial(n-1);
+}
+</code></pre>      
+                </section>
+                <section class="english" id="english">
+                    <h2>English</h2>
+                    <p>B1 - Intermediate</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <a href="https://github.com/fourlena" class="footer-github">
+                    <img src="assets/github.png" alt="github-logo">
+                    <p>My page</p>
+                </a>
+                <p>© 2022</p>
+                <a href="https://rs.school/js-stage0/" class="footer-rss">
+                    <img src="assets/rs_school_js.svg" alt="rss-logo">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
