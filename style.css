@@ -73,3 +73,21 @@ body{
     color:#FFFFFF;
     font-weight: 300;
 }
+
+.wrapper{
+    width: 60%;
+}
+
+.contacts-list{
+    list-style-type: none;
+    padding: 0;
+}
+.contacts-link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.project-link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
