@@ -64,3 +64,12 @@ body{
     font-size: 29px;
     text-transform: uppercase;
 }
+
+.aside{
+    width: 30%;
+    padding: 20px 23px 10px 60px;
+    background-color: #212121;
+    border-radius:30px;
+    color:#FFFFFF;
+    font-weight: 300;
+}
